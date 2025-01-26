@@ -75,7 +75,7 @@ fn nimisin(rng: Random, syllable_count: usize, writer: anytype) !void {
 }
 
 fn genSyllables() []const []const u8 {
-    @setEvalBranchQuota(10_000);
+    @setEvalBranchQuota(4000);
 
     var list: []const []const u8 = &.{};
 
