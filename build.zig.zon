@@ -1,0 +1,10 @@
+.{
+    .name = "ilo_pi_toki_pona",
+    .version = "0.0.0",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
